@@ -1,0 +1,12 @@
+* future
+비동기 작업의 결과를 나타냄, 미완료(value 생성 전) 또는 완료(value 생성)의 두 가지 상태를 가질 수 있음.
+
+* margin vs padding
+ - margin : 바깥쪽 영역의 여백
+ - padding : 안쪽 영역의 여백
+
+ * StatelessWidget 클래스
+ 해당 클래스를 상속받은 클래스는 처음에 한번 그려지고, 다시 변경되지 않는 특성을 가짐.
+
+ *SafeArea
+ 노치부분을 제외한 그 아랫 영역
