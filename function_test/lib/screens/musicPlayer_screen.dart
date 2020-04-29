@@ -85,11 +85,11 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
   @override
   void initState() {
     
-    _audiolist().then((List<FileSystemEntity> songs) {
-      for(int i=0; i<songs.length; i++){
-        print(songs[i].path);
-      }
-    });
+    // _audiolist().then((List<FileSystemEntity> songs) {
+    //   for(int i=0; i<songs.length; i++){
+    //     print(songs[i].path);
+    //   }
+    // });
 
     
 

@@ -3,6 +3,7 @@ import 'package:function_test/screens/home_screen.dart';
 import 'package:function_test/widgets/bottom_bar.dart';
 import 'package:function_test/screens/imagePicker_screen.dart';
 import 'package:function_test/screens/musicPlayer_screen.dart';
+import 'package:function_test/screens/videoPlayer_screen.dart';
 
 class LoginScreen extends StatefulWidget  {
   _LoginScreenState createState() => _LoginScreenState();
@@ -111,7 +112,7 @@ class _LoginScreenState extends State<LoginScreen>  {
                                                   HomeScreen(),
                                                   ImagePickerScreen(),
                                                   MusicPlayerScreen(),
-                                                  HomeScreen(),
+                                                  VideoPlayerScreen(),
                                                   HomeScreen(),
                                                   //ImagePicker(),
                                                 ],
